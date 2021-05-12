@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Online Courses</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">OnlineCourses.gr</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">
+                LOGOUT
+              </button>
+            </form>
+          </div>
+        </nav>
+      </header>
+      <div class="container">
+        <table class="table table-dark my-4 table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Subject</th>
+              <th scope="col">Assesment</th>
+              <th colspan="2">Mark</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">Geralt</td>
+              <td rowspan="2" class="bg-info align-middle text-center">Java</td>
+              <td>TheoryLab</td>
+              <td>40</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Result</td>
+              <td colspan="2" class="bg-danger align-middle text-center">
+                FAIL
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">Triss</td>
+              <td rowspan="2" class="bg-primary align-middle text-center">
+                C++
+              </td>
+              <td>TheoryLab</td>
+              <td>65</td>
+              <td>90</td>
+            </tr>
+            <tr>
+              <td>Result</td>
+              <td colspan="2" class="bg-success align-middle text-center">
+                PASS
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">Yennefer</td>
+              <td rowspan="2" class="bg-warning align-middle text-center">
+                Python
+              </td>
+              <td>TheoryLab</td>
+              <td>85</td>
+              <td>76</td>
+            </tr>
+            <tr>
+              <td>Result</td>
+              <td colspan="2" class="bg-success align-middle text-center">
+                PASS
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h1 class="text-center">EXAMINERS</h1>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item border-dark">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  class="img-fluid"
+                  width="150px"
+                  height="150px"
+                  src="/assets/img/contact.png"
+                  alt="Person1"
+                />
+                <p>John Georgopoulos</p>
+              </div>
+              <div class="col-8">
+                <article>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                  eius architecto atque in rem. Vel a culpa maiores ut! Eos
+                  incidunt ad animi quaerat sed eum laboriosam enim molestiae
+                  debitis laudantium voluptate nisi sapiente maxime dolorem
+                  recusandae saepe in sequi adipisci, provident nam molestias
+                  vitae ab? Sint, ipsum atque! Ullam?
+                </article>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item border-dark">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  class="img-fluid"
+                  width="150px"
+                  height="150px"
+                  src="/assets/img/contact.png"
+                  alt="Person2"
+                />
+                <p>Mike Papadopoulos</p>
+              </div>
+              <div class="col-8">
+                <article>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore quae eum sapiente quaerat cum culpa unde quasi! Qui
+                  quo facilis consequatur aliquid fugit cum error suscipit
+                  perspiciatis nam eius asperiores voluptatum nisi laudantium
+                  dolore, accusantium veniam repellendus natus tempore numquam
+                  omnis minus officia perferendis. Qui, omnis. Quisquam enim
+                  recusandae quaerat.
+                </article>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
